@@ -1,0 +1,13 @@
+x = int(input("Podaj liczbę: "))
+y = int(input("Podaj liczbę: "))
+
+if x <= 10 and y <= 10:
+	print("jesteś w lewej dolnej części planszy")
+elif x >= 90 and y >= 90:
+	print("jesteś w górnej prawej części planszy")
+elif x <=10 and 10 < y < 90:
+	print("jesteś w lewej centralnej części planszy")
+elif x <=10 and y > 90:
+	print("jesteś w górnej lewej części planszy")
+elif 10 < x < 90 and y <=10:
+	print("jesteś w dolnej centralnej części tabeli")

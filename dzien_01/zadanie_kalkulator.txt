@@ -1,0 +1,15 @@
+x = float(input("podaj pierwszą liczbę: ")
+y = float(input("podaj drugą liczbę: ")
+x = input("podaj rodzaj działania: ")
+
+if x = "+":
+	print(x +y)
+elif x = "-":
+	print(x - y)
+elif x = "*":
+	print (x * y)
+elif x ="/":
+	print(x / y)
+elif x = "^":
+	print( x ** y)
+	

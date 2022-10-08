@@ -1,0 +1,10 @@
+b_year = int(input("podaj rok urodzenia: "))
+acct_year = 2022
+
+age = acct_year - b_year
+
+if age >= 18:
+	print("jesteś pełnoletni")
+else:
+	print("jesteś niepełnoletni")
+	
